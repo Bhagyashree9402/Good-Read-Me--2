@@ -1,9 +1,9 @@
-# ksdj
+# Good ReadMe Generator
 
-![alt text](https://img.shields.io/badge/license-Apache-green)
+![alt text](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
-skdja
+To spend more time working on project,less time creating readme
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,23 +14,23 @@ skdja
 - [Questions](#questions)
 
 ## Installation
-sdlkj
+npm install inquirer
 
 ## Usage
-slkdj
+Can easily create readme file
 
 ## License
-Apache
+MIT
 
 ## Contribution
-lksjd
+Single contributor
 
 ## Tests
-skdj
+node index.js
 
 ## Questions
-### Link to GitHub page: https://github.com/sdk
+#### Link to GitHub page: https://github.com/Bhagyashree9402
 
-### Email: bhagyashree9402@gmail.com
+#### Email: bhagyashree9402@gmail.com
 
 ## Video: [link](https://drive.google.com/file/d/1qULqFp7JGR6O2spMkeywQdbRaQNdiiSI/view)
