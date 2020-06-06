@@ -68,7 +68,7 @@ inquirer.prompt([{
     })
 
     fs.appendFile("readme.md", "\n" + "## Description" + "\n" + response.description + "\n"
-        + "\n" + "## Table of Contents" + "\n" + "- [Installation][#Installation  ]"
+        + "\n" + "## Table of Contents" + "\n" + "- [Installation](#Installation)"
         + "\n" + "- [Usage][" + response.usage + "]" + "\n" + "- [License][" + response.license + "]"
         + "\n" + "- [Contribution][" + response.contribution + "]" + "\n" + "- [Tests][" + response.test + "]" + "\n"
         + "\n" + "## Installation" + "\n" + response.installaton + "\n"
@@ -76,7 +76,7 @@ inquirer.prompt([{
         + "\n" + "## License" + "\n" + response.license + "\n"
         + "\n" + "## Contribution" + "\n" + response.contribution + "\n"
         + "\n" + "## Tests" + "\n" + response.test + "\n"
-        + "\n" + "## Questions" + "\n" + "### Link to GitHub page: " + "[https://github.com/" + response.username + "]"
+        + "\n" + "## Questions" + "\n" + "### Link to GitHub page: " + "https://github.com/" + response.username + "\n"
         + "\n" + "### Email: " + response.email + "\n",
         function (error) {
             if (error) {
