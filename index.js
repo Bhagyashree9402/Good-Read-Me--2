@@ -70,18 +70,20 @@ inquirer.prompt([{
         }
     })
 
-    fs.appendFile("readme.md", "\n" + "## Description" + "\n" + response.description + "\n"
+    fs.appendFile("readme.md", "\n" + "![alt text](https://img.shields.io/badge/license-" + response.license + "-green)" + "\n"
+        + "\n" + "## Description" + "\n" + response.description + "\n"
         + "\n" + "## Table of Contents" + "\n" + "- [Installation](#installation)"
         + "\n" + "- [Usage](#usage)" + "\n" + "- [License](#license)"
         + "\n" + "- [Contribution](#contribution)" + "\n" + "- [Tests](#tests)"
-        + "\n" + "- [Questions](questions)" + "\n"
+        + "\n" + "- [Questions](#questions)" + "\n"
         + "\n" + "## Installation" + "\n" + response.installaton + "\n"
         + "\n" + "## Usage" + "\n" + response.usage + "\n"
         + "\n" + "## License" + "\n" + response.license + "\n"
         + "\n" + "## Contribution" + "\n" + response.contribution + "\n"
         + "\n" + "## Tests" + "\n" + response.test + "\n"
         + "\n" + "## Questions" + "\n" + "### Link to GitHub page: " + "https://github.com/" + response.username + "\n"
-        + "\n" + "### Email: " + response.email + "\n",
+        + "\n" + "### Email: " + response.email + "\n" +
+        + "\n" + "## Walkthrough vedio" + "\n" + "![alt text](./utils/video.mp4)" + "\n",
         function (error) {
             if (error) {
                 console.log(error);

@@ -1,7 +1,9 @@
-# Good ReadMe Generator
+# cvvbc
+
+![alt text](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
-To spend more time working on project,less time creating readme
+cvvbc
 
 ## Table of Contents
 - [Installation](#installation)
@@ -9,24 +11,26 @@ To spend more time working on project,less time creating readme
 - [License](#license)
 - [Contribution](#contribution)
 - [Tests](#tests)
-- [Questions](questions)
+- [Questions](#questions)
 
 ## Installation
-npm install inquirer
+cvvbc
 
 ## Usage
-Can easily create readme file
+cvvbc
 
 ## License
 MIT
 
 ## Contribution
-Single user
+mbc
 
 ## Tests
-node index.js
+cbmc
 
 ## Questions
-### Link to GitHub page: https://github.com/Bhagyashree9402
+### Link to GitHub page: https://github.com/bcm
 
-### Email: bhagyashree9402@gmail.com
+### Email: mcm
+0## Walkthrough vedio
+![alt text](./utils/video.mp4)
