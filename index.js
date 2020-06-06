@@ -82,8 +82,8 @@ inquirer.prompt([{
         + "\n" + "## Contribution" + "\n" + response.contribution + "\n"
         + "\n" + "## Tests" + "\n" + response.test + "\n"
         + "\n" + "## Questions" + "\n" + "### Link to GitHub page: " + "https://github.com/" + response.username + "\n"
-        + "\n" + "### Email: " + response.email + "\n" +
-        + "\n" + "## Walkthrough vedio" + "\n" + "![alt text](./utils/video.mp4)" + "\n",
+        + "\n" + "### Email: " + response.email + "\n"
+        + "\n" + "## Video: " + "\n" + "![alt text](./utils/video.mp4)" + "\n",
         function (error) {
             if (error) {
                 console.log(error);
