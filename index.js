@@ -57,7 +57,10 @@ inquirer.prompt([{
 },
 ]).then(function (response) {
     console.log(response);
-    //fs.unlinkSync("readme.md");
+    if (fs.existsSync("readme.md")) {
+        fs.unlinkSync("readme.md");
+    }
+
     fs.writeFile("readme.md", "# " + response.project_title + "\n", function (error) {
         if (error) {
             console.log(error);

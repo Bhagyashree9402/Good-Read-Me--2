@@ -1,4 +1,8 @@
 # Good ReadMe Generator
+
+## Description
+To spend more time working on project,less time creating readme
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -8,19 +12,19 @@
 - [Questions](questions)
 
 ## Installation
-vvxcbx
+npm install inquirer
 
 ## Usage
-xbxbf
+Can easily create readme file
 
 ## License
-Apache
+MIT
 
 ## Contribution
-bf
+Single user
 
 ## Tests
- fdbd
+node index.js
 
 ## Questions
 ### Link to GitHub page: https://github.com/Bhagyashree9402
