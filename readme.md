@@ -3,7 +3,7 @@
 ![alt text](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
-To spend more time working on project,less time creating readme
+To spens more time working on project,less time creating readme
 
 ## Table of Contents
 - [Installation](#installation)
@@ -17,7 +17,7 @@ To spend more time working on project,less time creating readme
 npm install inquirer
 
 ## Usage
-Can easily create readme file
+Can easily create the readme file
 
 ## License
 MIT
@@ -26,7 +26,7 @@ MIT
 Single contributor
 
 ## Tests
-node index.js
+npm install inquirer
 
 ## Questions
 #### Link to GitHub page: https://github.com/Bhagyashree9402
@@ -34,3 +34,5 @@ node index.js
 #### Email: bhagyashree9402@gmail.com
 
 ## Video: [link](https://drive.google.com/file/d/1qULqFp7JGR6O2spMkeywQdbRaQNdiiSI/view)
+
+## Demo Screenshot:![Alt Text](./utils/Untitled.png)
