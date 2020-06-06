@@ -69,8 +69,9 @@ inquirer.prompt([{
 
     fs.appendFile("readme.md", "\n" + "## Description" + "\n" + response.description + "\n"
         + "\n" + "## Table of Contents" + "\n" + "- [Installation](#installation)"
-        + "\n" + "- [Usage][" + response.usage + "]" + "\n" + "- [License][" + response.license + "]"
-        + "\n" + "- [Contribution][" + response.contribution + "]" + "\n" + "- [Tests][" + response.test + "]" + "\n"
+        + "\n" + "- [Usage](#usage)" + "\n" + "- [License](#license)"
+        + "\n" + "- [Contribution](#contribution)" + "\n" + "- [Tests](#tests)"
+        + "\n" + "- [Questions](questions)" + "\n"
         + "\n" + "## Installation" + "\n" + response.installaton + "\n"
         + "\n" + "## Usage" + "\n" + response.usage + "\n"
         + "\n" + "## License" + "\n" + response.license + "\n"
