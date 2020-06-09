@@ -1,9 +1,9 @@
-# Good README Generator
+# Good ReadMe Generator
 
 ![alt text](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
-Allows to spend more time working on and finishing the project and less time creating readme
+Allows to spend more time working on project and less time on creating read me 
 
 ## Table of Contents
 - [Installation](#installation)
@@ -23,13 +23,13 @@ Can easily create the readme file
 MIT
 
 ## Contribution
-Single contributor
+Single Contributor
 
 ## Tests
 node index.js
 
 ## Questions
-#### Link to GitHub page: https://github.com/Bhagyashree9402
+#### Link to GitHub page: [GitHub_Link](https://github.com/Bhagyashree9402)
 
 #### Email: bhagyashree9402@gmail.com
 

@@ -81,7 +81,7 @@ inquirer.prompt([{
         + "\n" + "## License" + "\n" + response.license + "\n"
         + "\n" + "## Contribution" + "\n" + response.contribution + "\n"
         + "\n" + "## Tests" + "\n" + response.test + "\n"
-        + "\n" + "## Questions" + "\n" + "#### Link to GitHub page: " + "https://github.com/" + response.username + "\n"
+        + "\n" + "## Questions" + "\n" + "#### Link to GitHub page: [GitHub_Link](https://github.com/" + response.username + ")" + "\n"
         + "\n" + "#### Email: " + response.email + "\n"
         + "\n" + "## Video: [link](https://drive.google.com/file/d/1qULqFp7JGR6O2spMkeywQdbRaQNdiiSI/view)" + "\n"
         + "\n" + "## Demo Screenshot:" + "![Alt Text](./utils/Untitled1.png)" + "\n",
